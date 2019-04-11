@@ -1,0 +1,3 @@
+[submodule "theme/meghana"]
+	path = theme/meghana
+	url = https://github.com/bantam-brandon/meghna-hugo.git
