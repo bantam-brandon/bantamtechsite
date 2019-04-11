@@ -3,94 +3,94 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/author/john-doe/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <loc>/author/john-doe/</loc>
+    <lastmod>2018-09-12T08:51:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/are-you-doing-the-right-way/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <loc>/blog/are-you-doing-the-right-way/</loc>
+    <lastmod>2018-09-12T08:51:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/author/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <loc>/author/</loc>
+    <lastmod>2018-09-12T08:51:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/blog/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2018-09-12T08:51:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2018-09-12T08:51:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/author/somrat/</loc>
+    <loc>/author/somrat/</loc>
     <lastmod>2018-09-12T14:39:16+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/simple-post-title/</loc>
+    <loc>/blog/simple-post-title/</loc>
     <lastmod>2018-09-12T14:39:16+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/author/jamica-jock/</loc>
+    <loc>/author/jamica-jock/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/simple-image-post/</loc>
+    <loc>/blog/simple-image-post/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/blog/installation/</loc>
+    <loc>/blog/installation/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/author/themefisher/</loc>
+    <loc>/author/themefisher/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/golang/</loc>
+    <loc>/tags/golang/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/programming/</loc>
+    <loc>/tags/programming/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/starting/</loc>
+    <loc>/categories/starting/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/theme/</loc>
+    <loc>/tags/theme/</loc>
     <priority>0</priority>
   </url>
   
