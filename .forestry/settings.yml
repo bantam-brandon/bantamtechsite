@@ -8,7 +8,7 @@ sections:
   path: layouts
   label: Pages
   create: all
-  match: "*"
+  match: "**/*"
 - type: directory
   path: content/author
   label: Author
