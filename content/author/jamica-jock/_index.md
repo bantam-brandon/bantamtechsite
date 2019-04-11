@@ -1,5 +1,5 @@
 ---
-name: Jamica Jock
+name: Jamica Jockk
 email: email@example.org
 github: example
 
