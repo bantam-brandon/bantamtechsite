@@ -1,7 +1,7 @@
 baseURL = ""
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Meghna"
+title = "BantamTechnologies"
 theme = "meghna-hugo"
 summaryLength = 10
 
@@ -62,10 +62,10 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/hero-area.jpg"
+    bgImage = "images/slider/hero-area.png"
     icon = "tf-ion-play"
-    heading = "Experience the new reality"
-    content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+    heading = "Bantam Technologies"
+    content= "Simplify Security"
     btn = true
     btnText="Explore Us"
     btnURL="#services"
