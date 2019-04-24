@@ -21,10 +21,10 @@
                             <i class="fa-4x {{ .icon }}"></i>
                     </div>
                     <div class="caption">
-                        <a class="career-icon image-popup" data-effect="mfp-with-zoom" href="{{ .image | absURL}}" data-lightbox="image-1">
+                        <a class="career-icon image-popup" data-effect="mfp-with-zoom" href="{{ .image | relURL}}" data-lightbox="image-1">
                             <i class="{{ .icon }}"></i>
                         </a>
-                        <h4><a href="{{ .URL | absURL }}">{{ .title }}</a></h4>
+                        <h4><a href="{{ .URL | relURL }}">{{ .title }}</a></h4>
                         <p>{{ .description }}</p>
                     </div>
                 </div>

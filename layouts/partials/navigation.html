@@ -3,7 +3,7 @@
         <div class="container">
 
                 {{"<!-- logo -->" | safeHTML}}
-                <a class="navbar-brand logo" href="{{ .Site.BaseURL | absURL }}">
+                <a class="navbar-brand logo" href="{{ .Site.BaseURL | relURL }}">
                         {{partial "bantamlogo.html" . }}
                         {{partial "brandname-text.html" . }}
                 </a>

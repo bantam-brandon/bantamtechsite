@@ -32,7 +32,7 @@
                     </ul>
 
                     {{"<!-- signup button -->" | safeHTML}}
-                    <a class="btn btn-transparent" href="{{ .btnURL | absURL}}">{{ .btnText }}</a>
+                    <a class="btn btn-transparent" href="{{ .btnURL | relURL}}">{{ .btnText }}</a>
 
                 </div>
             </div>

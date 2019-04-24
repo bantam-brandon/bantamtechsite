@@ -1,6 +1,6 @@
 {{ if .Site.Data.testimonial.enable }}
 {{"<!-- Start Testimonial -->" | safeHTML}}
-<section id="testimonial" class="testimonial overly section bg-2" style='background-image: url("{{ .Site.Data.testimonial.bgImage | absURL }}")'>
+<section id="testimonial" class="testimonial overly section bg-2" style='background-image: url("{{ .Site.Data.testimonial.bgImage | relURL }}")'>
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -12,7 +12,7 @@
 
                         {{"<!-- client photo -->" | safeHTML}}
                         <div class="client-thumb">
-                            <img src="{{ .image | absURL }}" class="img-fluid" alt="Meghna">
+                            <img src="{{ .image | relURL }}" class="img-fluid" alt="Meghna">
                         </div>
 
                         {{"<!-- client info -->" | safeHTML}}
