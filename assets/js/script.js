@@ -204,13 +204,15 @@ $(document).ready(function () {
 			},
 			'--navblur': {
 				from: '0px',
-				to: '10px',
-				
+				to: '10px'
 			},
 			'--brandTextNav': {
 				from: '-400px',
-				to: '0px',
-				
+				to: '0px'
+			},
+			'--navColor': {
+				from: 254,
+				to: 0	
 			}
 		}
 	});

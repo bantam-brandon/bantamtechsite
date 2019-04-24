@@ -22,6 +22,7 @@
                                 {{ range $.Site.Menus.nav }}
                                 <li class="nav-item"><a class="nav-link" data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
                                 {{ end }}
+                                <li class="nav-link nav-last-spacer"><a href="tel:+1-302-256-5823">tel:1.302.256.5823</a></li>
                                 <li class="nav-link nav-last-spacer"> </li>
                         </ul>
                 </div>
@@ -32,12 +33,14 @@
                                 {{ range $.Site.Menus.nav }}
                                 <li class="nav-item"><a class="nav-link" data-scroll href="{{ $.Site.BaseURL }}#{{ .URL }}">{{ .Name }}</a></li>
                                 {{ end }}
+                                <li class="nav-link nav-last-spacer"><a href="tel:+1-302-256-5823">tel:1.302.256.5823</a></li>
                                 <li class="nav-link nav-last-spacer"> </li>
                                 
                         </ul>
                 </div>
                 {{ end }}
                 {{"<!-- /main nav -->" | safeHTML}}
+                
         </div>
 
 </nav>

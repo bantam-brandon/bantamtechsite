@@ -260,7 +260,7 @@ i.method {
 }
 
 body .section {
-    padding: 60px 0;
+    padding: 100px 0;
 }
 
 .services a.cta.h4:hover{
@@ -289,6 +289,10 @@ footer {
     padding-top: 30px;
 }
 
+footer .title{
+    padding-bottom: 30px;
+}
+
 /* [data-aos="redacted"].aos-animate:after  {
     width: 0%;
     opacity: 1;
@@ -315,6 +319,10 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #4C4C55;
+}
+
+.navigation .navigation-menu li a {
+    color: rgb(var(--navColor,0),var(--navColor,0),var(--navColor,0));
 }
 
 .hero-area .block {
@@ -395,7 +403,20 @@ footer {
     transform: translateX(var(--brandTextNav,-100));
 }
 
+footer img.partner{
+    height: 40px;
+}
+
 @media (max-width: 480px) {
+    .hero-area {
+        margin-top: -101px;
+    }
+    footer img.partner{
+        height: 20px;
+    }
+    .navbar-toggler{
+        margin-left: calc(50% - 30px);
+    }
     .navigation .logo-name {
       font-size: 30px;
     }
