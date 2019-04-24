@@ -2,26 +2,22 @@ enable : true
 heading : Our
 headingSpan : Services
 serviceItem :
-  - icon : tf-globe
-    title : WordPress Theme
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+  - icon : fal fa-fw fa-window
+    background: bg-dark-gray
+    title : MDR
+    content : Managed Detection and Response. Proactive protection & response using next level endpoint sophistication, machine learning, and automation.
     
-  - icon : tf-ion-laptop
-    title : Responsive Design
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+  - icon : fal fa-fw fa-envelope
+    background: bg-medium-gray
+    title : PHISHING
+    content : Stop malicious email dead in its tracks. Phish your users safely as part of  rolling exercises and training.
     
-  - icon : tf-genius
-    title : Media &amp; Advertisement
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+  - icon : fal fa-fw fa-server
+    background: bg-offwhite
+    title : SIEM
+    content : World class security operations via economies of scale. Get the same coverage, and advanced analytics without having to go BIG. 
     
-  - icon : tf-dial
-    title : Graphic Design
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    
-  - icon : tf-target3
-    title : Apps Development
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    
-  - icon : tf-lifesaver
-    title : Networking
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+  - icon : fal fa-fw fa-mobile
+    background: bg-dark-gray
+    title : COMMS
+    content : Secure voice, chat, video, email, calendar, & file transfer. Don't worry about issuing devices anymore.

@@ -2,7 +2,7 @@ baseURL = ""
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "BantamTechnologies"
-theme = "meghna-hugo"
+
 summaryLength = 10
 
 [taxonomies]
@@ -12,40 +12,21 @@ summaryLength = 10
 
 # Menu
 [menu]
-    [[menu.nav]]
-    name = "About Us"
-    URL = "about"
-    weight = 2
 
     [[menu.nav]]
-    name = "Service"
+    name = "Services"
     URL = "services"
     weight = 3
-
-    [[menu.nav]]
-    name = "Portfolio"
-    URL = "portfolio"
-    weight = 4
-
-    [[menu.nav]]
-    name = "Team"
-    URL = "our-team"
-    weight = 5
-
-    [[menu.nav]]
-    name = "Pricing"
-    URL = "pricing"
-    weight = 6
-
-    [[menu.nav]]
-    name = "Blog"
-    URL = "blog"
-    weight = 7
 
     [[menu.nav]]
     name = "Contact"
     URL = "contact-us"
     weight = 8
+
+    [[menu.nav]]
+    name = "Careers"
+    URL = "career"
+    weight = 10
 
 # Site params
 [params]
@@ -53,7 +34,7 @@ home= "Home"
 logo = "images/logo.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
+description = "BantamTechnologies provides cyber security services and applications to meet business writ large. The unconventional approach in the security field and a solution to SMBs. A solution for everyone."
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
@@ -62,7 +43,7 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/hero-area.png"
+    bgImage = "images/backgrounds/bantam-blue-straight.jpeg"
     icon = "tf-ion-play"
     heading = "Bantam Technologies"
     content= "Simplify Security"
@@ -104,34 +85,28 @@ custom_css = ["css/custom.css"]
 
     # footer
     [params.footer]
-        copyright = "Themefisher Team"
-        copyrightURL = "http://www.themefisher.com"
-
-        # social Icons
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-facebook"
-        url = "#"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-twitter"
-        url = "#"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-google-outline"
-        url = "#"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-youtube"
-        url = "#"
 
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-linkedin"
-        url = "#"
+        url = "https://www.linkedin.com/company/bantam-technologies/about/"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-dribbble-outline"
-        url = "#"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-pinterest-outline"
-        url = "#"
+        [[params.footer.partners]]
+        src = "images/logos/area1.png"
+        alttext = "Area1 logo"
+
+        [[params.footer.partners]]
+        src = "images/logos/security-scorecard.svg"
+        alttext = "SecurityScorecard logo"
+
+        [[params.footer.partners]]
+        src = "images/logos/cloudflare.png"
+        alttext = "Cloudflare logo"
+
+        [[params.footer.partners]]
+        src = "images/logos/rl-com-logo.svg"
+        alttext = "ReversingLabs logo"
+
+        [[params.footer.partners]]
+        src = "images/logos/endgame.png"
+        alttext = "Endgame logo"

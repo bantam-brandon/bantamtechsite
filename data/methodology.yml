@@ -1,0 +1,18 @@
+enable : true
+heading : Our
+headingSpan : Method
+aboutItem : 
+- icon : tf-tools
+  title : ASSESS
+  content : We identify previously unknown threats so that we can build from a secure foundation.
+  colorClass : bg-yellow
+
+- icon : fal fa-book-dead fa-fw
+  title : RESPOND
+  content : We'll execute defensive measures that protect you from ever-evolving cybercriminals. Our tools will give you the ability to measure risk, and implement a better process.
+  colorClass : bg-white
+
+- icon : fal fa-shield-check fa-fw
+  title : PROTECT
+  content : We'll provide coverage in email, on endpoints, network, web presence, and can offer secure comms to your business, alleviating the need for company-issued mobile phones.
+  colorClass : bg-green

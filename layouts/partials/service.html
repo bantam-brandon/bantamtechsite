@@ -1,7 +1,7 @@
 {{ if .Site.Data.service.enable}}
 {{"<!-- service -->" | safeHTML }}
-<section id="services" class="bg-one section">
-    <div class="container">
+<section id="services" class=" section services">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
                 {{"<!-- section title -->" | safeHTML }}
@@ -12,21 +12,94 @@
             </div>
             {{"<!-- /section title -->" | safeHTML }}
 
-            {{ range .Site.Data.service.serviceItem}}
-            {{"<!-- Single Service Item -->" | safeHTML }}
-            <article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
-                <div class="service-block text-center">
-                    <div class="service-icon text-center">
-                        <i class="{{ .icon }}"></i>
+            <div class="row row-eq-height margin-0">
+                {{ range .Site.Data.service.serviceItem}}
+                {{"<!-- Single Service Item -->" | safeHTML }}
+                
+                <article class="col-lg-3 col-md-6 col-12 wow fadeInUp {{ .background }}" data-wow-duration="500ms">
+                    <div class="bantam-service-block text-center">
+                        <div class="service-icon text-center">
+                            <i class="fa-4x {{ .icon }}"></i>
+                        </div>
+                        <h3>{{ .title }}</h3>
+                        <p>{{ .content }}</p>
+                        {{ with .cta }}<a class="cta {{ .class }}" {{ printf "href=%q" .href | safeHTMLAttr }} >{{ .text }}</a>{{ end }}
                     </div>
-                    <h3>{{ .title }}</h3>
-                    <p>{{ .content }}</p>
+                </article>
+                
+                {{"<!-- End Single Service Item -->" | safeHTML }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+<section id="services" class=" section consulting">
+    <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    {{"<!-- section title -->" | safeHTML }}
+                    <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                        <h2>{{ with .Site.Data.consulting.heading }} {{ . }} {{ end }}<span class="color">{{ with .Site.Data.consulting.headingSpan }} {{ . }} {{ end }}</span></h2>
+                        <div class="border-meghna"></div>
+                    </div>
                 </div>
-            </article>
-            {{"<!-- End Single Service Item -->" | safeHTML }}
+                {{"<!-- /section title -->" | safeHTML }}
+    
+                <div class="row row-eq-height margin-0">
+                    {{ range .Site.Data.consulting.serviceItem}}
+                    {{"<!-- Single Service Item -->" | safeHTML }}
+                    
+                    <article class="col-lg-3 col-md-6 col-12 wow fadeInUp {{ .background }}" data-wow-duration="500ms">
+                        <div class="bantam-service-block text-center">
+                            <div class="service-icon text-center">
+                                <i class="fa-4x {{ .icon }}"></i>
+                            </div>
+                            <h3>{{ .title }}</h3>
+                            <p>{{ .content }}</p>
+                            {{ with .cta }}<a class="cta {{ .class }}" {{ printf "href=%q" .href | safeHTMLAttr }} >{{ .text }}</a>{{ end }}
+                        </div>
+                    </article>
+                    
+                    {{"<!-- End Single Service Item -->" | safeHTML }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+</section>
+{{"<!-- /service -->" | safeHTML }}
+{{ end }}
+
+{{ if .Site.Data.methodology.enable}}
+{{"<!-- Start About Section -->" | safeHTML}}
+<section class="about section" id="methodology">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                    <h2>{{ .Site.Data.methodology.heading}} <span class="color">{{ .Site.Data.methodology.headingSpan}}</span> </h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+
+            {{ range .Site.Data.methodology.aboutItem }}
+            {{"<!-- method item -->" | safeHTML}}
+            <div class="method-boxes col-lg-4 text-center wow fadeInUp row-eq-height" data-wow-duration="500ms">
+                <div class="block">
+                    <div class="icon-box {{ .colorClass }} ">
+                        {{with .icon}}<i class="method {{ . }}"></i>{{ end }}
+                    </div>
+                    {{"<!-- Express About Yourself -->" | safeHTML}}
+                    <p class="content text-center redacted">
+                        {{ with .title }}<h3 >{{ . }}</h3>{{ end }}
+                        {{ with .content}}  <p>{{ . }}</p>{{ end }}
+                    </p>
+                </div>
+            </div>
             {{ end }}
         </div>
     </div>
 </section>
-{{"<!-- /service -->" | safeHTML }}
+{{"<!-- /about -->" | safeHTML}}
 {{ end }}

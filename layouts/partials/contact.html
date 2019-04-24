@@ -1,7 +1,6 @@
 {{ if .Site.Data.contact.enable }}
 {{"<!-- Start Contact Us -->" | safeHTML}}
 <section id="contact-us" class="contact-us section-bg">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvHeUiK8lPx6kj-Rv0qNzUL8NMIdwaS2Plnfc5S9j6js17fA/viewform?embedded=true" width="640" height="819" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -21,7 +20,7 @@
                     {{ range .Site.Data.contact.contactDetails }}
                     <div class="con-info clearfix">
                         <i class="{{ .icon }}"></i>
-                        <span>{{ .info }}</span>
+                        <a {{ printf "href=%q" .href | safeHTMLAttr }} >{{ .info }}</a>
                     </div>
                     {{ end }}
                 </div>
@@ -29,9 +28,9 @@
 
             {{"<!-- Contact Form -->" | safeHTML}}
             <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                <form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
+                <form id="contact-form" class="form-bantam" method="post" role="form">
 
-                    <input name="e-mail" type="text" id="e-mail" autocomplete="off">
+                    <input name="e-mail" type="text" id="e-mail">
 
                     <div class="form-group">
                         <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
