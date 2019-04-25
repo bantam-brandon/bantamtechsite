@@ -55,12 +55,12 @@
 		<script type="text/javascript" src="plugins/AOS/aos.min.js" ></script>
 
 		{{ $scroll := resources.Get "js/scroll-behavior-polyfill.js" | minify}}
-		<script src="js/scroll-behavior-polyfill.min.js"></script>
+		<script src="{{ $scroll.RelPermalink }}"></script>
 
 		<script type="text/javascript" src="plugins/sweet-alert/sweetalert.min.js" ></script>
 	
 		{{ $script := resources.Get "js/script.js" | minify}}
-		<script src="js/script.min.js"></script>
+		<script src="{{ $script.RelPermalink }}"></script>
 
 	
 
