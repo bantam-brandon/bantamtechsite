@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: data/footer.yml
+  label: Footer Config
+  match: "**/*"
+- type: document
   path: config.toml
   label: CONFIG.TOML
 - type: directory
