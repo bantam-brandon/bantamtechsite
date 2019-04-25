@@ -12,65 +12,65 @@ headingSpan : Here
 #     filterTitle : Development
 
 careerItem :
-  - types : design
+  - title : MEDICAL
+    types : design
     image : images/portfolio/portfolio-1.jpg
     icon : fal fa-fw fa-briefcase-medical
     URL : #
-    title : MEDICAL
     description : We pay a large majority of platinum medical, dental, and vision.
     
-  - types : development
+  - title : 401K
+    types : development
     image : images/portfolio/portfolio-2.jpg
     icon : fal fa-fw fa-chart-pie-alt
     URL : #
-    title : 401K
     description : We offer a 401k plan with 5% matching contributions
     
-  - types : design, development
+  - title : MERGE
+    types : design, development
     image : images/portfolio/portfolio-3.jpg
     icon : fal fa-fw fa-code-merge
     URL : #
-    title : MERGE
     description : Let’s commit to open source.
     
-  - types : photography, development
+  - title : PTO
+    types : photography, development
     image : images/portfolio/portfolio-4.jpg
     icon : fal fa-fw fa-calendar-times
     URL : #
-    title : PTO
     description : Have all the PTO, unlimited. We want healthy, happy employees.
     
-  - types : design
+  - title : HUNT
+    types : design
     image : images/portfolio/portfolio-5.jpg
     icon : fal fa-fw fa-spider-black-widow
     URL : #
-    title : HUNT
     description : Make the adversary second guess who they are. Work with the best and help evolve our technique.
     
-  - types : development
+  - title : WFH
+    types : development
     image : images/portfolio/portfolio-7.jpg
     icon : fal fa-fw fa-home-lg
     URL : #
-    title : WFH
     description : Somedays, you need to wear pajamas to work. That’s ok.
     
-  - types : design, development
+  - title : EVENTS
+    types : design, development
     image : images/portfolio/portfolio-8.jpg
     icon : fal fa-fw fa-podium-star
     URL : #
-    title : EVENTS
     description : Want to present or attend? Please do. Let’s make the community better.
     
-  - types : design, photography
+  - title : IDEAS
+    types : design, photography
     image : images/portfolio/portfolio-2.jpg
     icon : fal fa-fw fa-lightbulb-on
     URL : #
-    title : IDEAS
     description : Have something else in mind? We’re open.
 
-  - types : design, photography
+  - title : CULTURE
+    types : design, photography
     image : images/portfolio/portfolio-2.jpg
     icon : fab fa-fw fa-jedi-order
     URL : #
-    title : CULTURE
     description : Work hard, play hard. It's really simple for us. We  take breaks, play games, and allow ourselves to recharge.

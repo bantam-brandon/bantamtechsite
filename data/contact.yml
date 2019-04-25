@@ -7,15 +7,18 @@ enable_maps : false
 mapLatitude : 51.5223477
 mapLongitude: -0.1622023
 contactDetails :
-  - icon : tf-map-pin
+  - title : location icon
+    icon : tf-map-pin
     href : "#"
     info : "Kansas City, Virginia, and Maryland"
     
-  - icon : tf-ion-ios-telephone-outline
+  - title : phone icon
+    icon : tf-ion-ios-telephone-outline
     href : "tel:+1-302-256-5823"
     info : "302.256.5823"
     
-  - icon : tf-ion-ios-email-outline
+  - title : email icon
+    icon : tf-ion-ios-email-outline
     href : "mailto:hello@bantam-tech.com"
     info : "hello@bantam-tech.com"
     

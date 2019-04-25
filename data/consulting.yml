@@ -7,21 +7,21 @@ serviceItem :
     title : ENGINEERING IT/OPS
     content : Ask about our Developer, IT, and Security operations consulting. Reduce your exposure and still allow freedom of movement for your employees.
     
-  - icon : fal fa-fw fa-swords text-danger
+  - title : INCIDENT RESPONSE
+    icon : fal fa-fw fa-swords text-danger
     background: bg-dark-gray
-    title : INCIDENT RESPONSE
     content : Under fire? Call us in now. We've fought off the worst case scenarios. The stuff nightmares are made of. 
     cta : 
       href : tel:+1-302-256-5823
       text : tel:+1-302-256-5823
       class : text-danger h4
 
-  - icon : fal fa-fw fa-fighter-jet
+  - title : RESPONSE RETAINER
+    icon : fal fa-fw fa-fighter-jet
     background: bg-medium-gray
-    title : RESPONSE RETAINER
     content : Incident response at lower upfront costs. We'll rush in when you ask us to, or as part of your MDR service. We'll offset years without response with consulting.
 
-  - icon : fal fa-fw fa-user-astronaut
+  - title : EXECUTIVE PROTECTION
+    icon : fal fa-fw fa-user-astronaut
     background: bg-offwhite
-    title : EXECUTIVE PROTECTION
     content : Executives are cyber targets wherever they travel. We can assess your executives and their security at their offsite travel, homes, and while abroad.
