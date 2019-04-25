@@ -7,19 +7,15 @@ sections:
 - type: document
   path: data/service.yml
   label: Service Section
-  match: "**/*"
 - type: document
   path: data/consulting.yml
   label: Consulting Section
-  match: "**/*"
 - type: document
   path: data/contact.yml
   label: Contact Section
-  match: "**/*"
 - type: document
   path: data/career.yml
   label: Work Here
-  match: "**/*"
 - type: document
   path: data/footer.yml
   label: Footer Config
