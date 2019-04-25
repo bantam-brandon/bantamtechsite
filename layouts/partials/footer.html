@@ -5,9 +5,9 @@
 				<div class="title">
 						<h2> Our <span class="color">Partners</span></h2>
 				</div>
-				<div class="row wow fadeInUp" data-wow-duration="500ms">
+				<div class="wow fadeInUp" data-wow-duration="500ms">
 						{{ range .Site.Params.footer.partners }}
-						<img class="partner" style="margin-right: 40px;margin-bottom:20px;" src="{{ .src | relURL }}" alt=".alttext">
+						<img class="partner" src="{{ .src | relURL }}" alt="{{ .alttext }}">
 						{{end}}
 				</div>
 		</div>
