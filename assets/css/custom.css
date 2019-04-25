@@ -276,11 +276,10 @@ body .section {
 }
 
 .bantam-hero{
-    margin-top: -40px;
+    margin-top: -60px;
     background-image: url('/images/backgrounds/bantam-wall.jpg');
     background-size: cover;
     height: 120%;
-    /* transform: translateY(var(--heroParalax)); */
     background-position-y: var(--heroParalax);
     background-position-x: center;
 }
@@ -462,5 +461,17 @@ footer ul li:first-child a{
 
     .navigation .navigation-menu li a {
         color: #333;
+    }
+
+    .career-block .caption {
+        opacity: 1;
+        top: 55%;
+    }
+    .career-block:before {
+        opacity: 1;
+    }
+    
+    .career-block .caption h4 {
+        top: 45%;
     }
 }

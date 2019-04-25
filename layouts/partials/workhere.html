@@ -15,13 +15,13 @@
         <div class="row filtr-container row-eq-height">
             
             {{ range .Site.Data.career.careerItem }}
-            <div class="col-lg-4 filtr-item" data-category="{{ .types }}">
+            <div class="col-md-6 col-lg-4 filtr-item" data-category="{{ .types }}">
                 <div class="career-block mb-4">
                     <div class="career-item" > 
                             <i class="fa-4x {{ .icon }}"></i>
                     </div>
                     <div class="caption">
-                        <a class="career-icon image-popup" data-effect="mfp-with-zoom" href="{{ .image | relURL}}" data-lightbox="image-1">
+                        <a class="career-icon">
                             <i class="{{ .icon }}"></i>
                         </a>
                         <h4><a href="{{ .URL | relURL }}">{{ .title }}</a></h4>
