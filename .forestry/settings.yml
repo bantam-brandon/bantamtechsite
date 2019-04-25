@@ -5,6 +5,18 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: data/service.yml
+  label: Service Section
+- type: document
+  path: data/consulting.yml
+  label: Consulting Section
+- type: document
+  path: data/contact.yml
+  label: Contact Section
+- type: document
+  path: data/career.yml
+  label: Work Here
+- type: document
   path: data/footer.yml
   label: Footer Config
 - type: document
