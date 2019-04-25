@@ -1,6 +1,6 @@
 
 <footer id="footer" class="bg-dark">
-	<section>	
+	<section class="partners">	
 		<div class="container">
 				<div class="title">
 						<h2> Our <span class="color">Partners</span></h2>
@@ -9,6 +9,34 @@
 						{{ range .Site.Params.footer.partners }}
 						<img class="partner" style="margin-right: 40px;margin-bottom:20px;" src="{{ .src | relURL }}" alt=".alttext">
 						{{end}}
+				</div>
+		</div>
+	</section>
+	<section class="container">
+		<div class="row">
+			<div class="col-xs-ns col-md-3">
+
+			</div>
+			<div class="col-xs-ns col-md-3">
+					<h4 class="title color">LINKS</h4>
+					<ul class="nav flex-column">
+					{{ range $.Site.Menus.nav }}
+					<li class="nav-item"><a class="nav-link" data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
+					{{ end }}
+					</ul>
+			</div>
+			<div class="col-xs-12 col-md-3">
+				<h4 class="title color">OFFICES</h4>
+				{{ range .Site.Params.footer.office }}
+				<div class="address-block">
+					<div class="city"><b>{{ .city }}</b>, {{ .state }}</div>
+					<div class="address">{{ .address }}</div>
+					<div class="address">{{ .address2 }}</div>
+				</div>
+				{{ end }}
+			</div>
+			<div class="col-xs-ns col-md-3">
+
 				</div>
 		</div>
 	</section>

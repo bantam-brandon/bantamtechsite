@@ -335,7 +335,7 @@ footer .title{
 
 .hero-area .bantam-logo{
     height: 100px;
-    transform: translateY(var(--logoSVGY,0));
+    transform: translateY(var(--HerologoSVGY,0));
 }
 
 .light-logo .bantam-logo path{
@@ -371,11 +371,6 @@ footer .title{
     color: #c60021;
 }
 
-.navigation{
-    backdrop-filter: blur(var(--navblur,0px));  
-    -webkit-backdrop-filter: blur(var(--navblur,0px));
-}
-
 .navigation .navbar-toggler{
     background-color: #333;
 }
@@ -400,11 +395,34 @@ footer .title{
     transform: translateY(var(--brandTextNav,-100));
 }
 .navigation .bantam-logo{
-    transform: translateX(var(--brandTextNav,-100));
+    transform: translateX(var(--logoSVGY,-3000));
+    opacity: var(--logoSVGOpacity,1);
 }
 
 footer img.partner{
     height: 40px;
+}
+section.partners{
+    margin-bottom: 60px;
+}
+
+footer ul.nav.flex-column a {
+    color: white;
+    padding-left:0;
+    padding-bottom: 0;
+}
+
+footer ul li:first-child a{
+    padding-top: 0;
+}
+
+.address-block {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 12pt;
+}
+.address-block .address{
+    line-height: 0.95;
 }
 
 @media (max-width: 480px) {
@@ -438,5 +456,9 @@ footer img.partner{
 
     .nav-last-spacer{
         height: 80px;
+    }
+
+    .navigation .navigation-menu li a {
+        color: #333;
     }
 }

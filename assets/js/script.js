@@ -182,7 +182,7 @@ $(document).ready(function () {
 		props: {
 			'--navbgcolor': {
 				from: 0,
-				to: 0.8
+				to: 1
 			}
 		}
 	});
@@ -199,12 +199,16 @@ $(document).ready(function () {
 				
 			},
 			'--logoSVGY':{
-				from: '0px',
-				to: '-300px'
+				from: '-3000px',
+				to: '0px'
 			},
-			'--navblur': {
+			'--logoSVGOpacity':{
+				from: '0',
+				to: '1'
+			},
+			'--HerologoSVGY':{
 				from: '0px',
-				to: '10px'
+				to: '-500px'
 			},
 			'--brandTextNav': {
 				from: '-400px',
