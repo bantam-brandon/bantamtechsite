@@ -31,6 +31,7 @@ build:
   preview_env:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.55.0
+  - RUBY_VERSION=2.6.1
   publish_env:
   - HUGO_ENV=production
   - HUGO_VERSION=0.55.0
