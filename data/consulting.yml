@@ -2,9 +2,9 @@ enable : true
 heading : Our
 headingSpan : Consulting
 serviceItem :
-  - icon : fal fa-fw fa-code
+  - title : ENGINEERING IT/OPS
+    icon : fal fa-fw fa-code
     background: bg-offwhite
-    title : ENGINEERING IT/OPS
     content : Ask about our Developer, IT, and Security operations consulting. Reduce your exposure and still allow freedom of movement for your employees.
     
   - title : INCIDENT RESPONSE
