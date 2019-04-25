@@ -5,21 +5,14 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: data/footer.yml
+  label: Footer Config
+- type: document
   path: config.toml
-  label: locations
+  label: CONFIG.TOML
 - type: directory
   path: layouts
   label: Pages
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/author
-  label: Author
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/blog
-  label: Blog
   create: all
   match: "**/*"
 upload_dir: static/images
