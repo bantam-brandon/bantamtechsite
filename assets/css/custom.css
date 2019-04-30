@@ -394,7 +394,7 @@ footer .title{
     transform: translateY(var(--brandTextNav,-100));
 }
 .navigation .bantam-logo{
-    transform: translateX(var(--logoSVGY,-3000));
+    transform: translateX(var(--logoSVGY,-300));
     opacity: var(--logoSVGOpacity,1);
 }
 
