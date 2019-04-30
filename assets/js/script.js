@@ -30,7 +30,7 @@ $(window).on('scroll', function () {
 		scrolled = true;
 		wow.init();
 	}
-})
+});
 
 /* ========================================================================= */
 /*	
@@ -62,7 +62,7 @@ $(document).ready(function () {
 				
 			},
 			'--logoSVGY':{
-				from: '-3000px',
+				from: '-300px',
 				to: '0px'
 			},
 			'--logoSVGOpacity':{
