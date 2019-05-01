@@ -48,7 +48,7 @@ custom_css = ["css/custom.css"]
     heading = "Bantam Technologies"
     content= "Simplify Security"
     btn = true
-    btnText="Explore Us"
+    btnText="Our Services"
     btnURL="#services"
 
     # call to action

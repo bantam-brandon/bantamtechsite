@@ -152,12 +152,7 @@
     color: #333;
     border: 1px solid #333;
   }
-  
-  .form-bantam .form-control:focus
-  {
-    border-color: none;
-    box-shadow: none;
-  }
+
   
   .form-bantam input:hover,
   .form-bantam textarea:hover,
@@ -174,7 +169,7 @@
       background-color: transparent;
       color: #333;
       border-color: #333;
-      transition: background-color,color,border-color 500;
+      transition: background-color,color,border-color 500ms;
   }
   .form-bantam #contact-submit:hover {
     background-color: #333;
@@ -280,6 +275,7 @@ body .section {
     background-image: url('/images/backgrounds/bantam-wall.jpeg');
     background-size: cover;
     height: 120%;
+    min-height: 500px;
     background-position-y: var(--heroParalax);
     background-position-x: center;
 }
@@ -395,7 +391,7 @@ footer .title{
 }
 .navigation .bantam-logo{
     transform: translateX(var(--logoSVGY,-300));
-    opacity: var(--logoSVGOpacity,1);
+    opacity: var(--logoSVGOpacity,0);
 }
 
 footer img.partner{
@@ -426,7 +422,7 @@ footer ul li:first-child a{
     line-height: 0.95;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
     .hero-area {
         margin-top: -101px;
     }
@@ -438,6 +434,7 @@ footer ul li:first-child a{
     }
     .navigation .logo-name {
       font-size: 30px;
+      opacity: var(--logoSVGOpacity,0);
     }
     .navbar-brand .bantam-logo{
         height: 40px;
@@ -445,6 +442,42 @@ footer ul li:first-child a{
 
     .hero-area .logo-name{
         font-size: 40px;
+    }
+}
+@media screen and (orientation:landscape) {
+    .navigation .logo-name {
+        opacity: var(--logoSVGOpacity,0);
+    }
+}
+@media (max-width: 978px) {
+    .navigation .logo-name {
+        opacity: var(--logoSVGOpacity, 0);
+    }
+}
+/*@media (min-width: 992px) and (max-width: 1200px){*/
+/*    .bantam-hero{*/
+/*        background-image: url('/images/backgrounds/bantam-wall-sm.jpg');*/
+/*    }*/
+/*}*/
+/*@media (min-width: 1200px) and (max-width: 1539px){*/
+/*    .bantam-hero{*/
+/*        background-image: url('/images/backgrounds/bantam-wall-sm.jpg');*/
+/*    }*/
+/*}*/
+@media (max-width: 600px){
+    .bantam-hero{
+        background-image: url('/images/backgrounds/bantam-wall-sm.jpg');
+    }
+}
+@media (min-width: 1200px){
+    .bantam-hero{
+        background-image: url('/images/backgrounds/bantam-wall-sm.jpg');
+    }
+}
+@media (min-width: 1750px){
+    .bantam-hero{
+        margin-top: 0;
+        background-position-y: center;
     }
 }
 @media (max-width: 992px) {

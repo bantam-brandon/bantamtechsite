@@ -95,7 +95,7 @@ $(document).ready(function () {
 			},
 			'--heroParalax':{
 				from: '0px',
-				to: '60px',
+				to: '-30px',
 			}
 		}
 			
