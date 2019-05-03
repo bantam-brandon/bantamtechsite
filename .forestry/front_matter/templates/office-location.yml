@@ -1,4 +1,24 @@
 ---
 label: Office Location
 hide_body: true
-fields: []
+fields:
+- name: city
+  type: text
+  config:
+    required: false
+  label: City
+- name: state
+  type: text
+  config:
+    required: false
+  label: State
+- name: address
+  type: text
+  config:
+    required: false
+  label: address
+- name: address2
+  type: text
+  config:
+    required: false
+  label: address2
