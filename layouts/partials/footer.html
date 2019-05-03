@@ -18,7 +18,7 @@
 
 			</div>
 			<div class="col-xs-ns col-md-3">
-					<h4 class="title color">LINKS</h4>
+					<h4 class="title color">Links</h4>
 					<ul class="nav flex-column">
 					{{ range $.Site.Menus.nav }}
 					<li class="nav-item"><a class="nav-link" data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
@@ -26,8 +26,8 @@
 					</ul>
 			</div>
 			<div class="col-xs-12 col-md-3">
-				<h4 class="title color">OFFICES</h4>
-				{{ range .Site.Data.footer.office }}
+				<h4 class="title color">Locations</h4>
+				{{ range $.Site.Data.offices }}
 				<div class="address-block">
 					<div class="city"><b>{{ .city }}</b>, {{ .state }}</div>
 					<div class="address">{{ .address }}</div>
@@ -73,15 +73,7 @@
 
 		<script type="text/javascript" src="plugins/bootstrap/dist/js/bootstrap.bundle.min.js" ></script>
 
-		<script type="text/javascript" src="plugins/slick-carousel/slick/slick.min.js" ></script>
-
-		<script type="text/javascript" src="plugins/filterzr/jquery.filterizr.min.js" ></script>
-
-		<script type="text/javascript" src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js" ></script>
-
 		<script type="text/javascript" src="plugins/count-to/jquery.countTo.js" ></script>
-
-		<script type="text/javascript" src="plugins/wow/dist/wow.min.js" ></script>
 
 		<script type="text/javascript" src="plugins/AOS/aos.min.js" ></script>
 
