@@ -4,6 +4,12 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: data/offices
+  label: Office Locations
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".yml"
 - type: document
   path: data/service.yml
   label: Service Section
