@@ -40,13 +40,12 @@ public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
-instant_preview: true
 build:
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
   publish_command: hugo -d public
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.55.0
+  - HUGO_VERSION=0.55.2
   - RUBY_VERSION=2.6.1
   publish_env:
   - HUGO_ENV=production
