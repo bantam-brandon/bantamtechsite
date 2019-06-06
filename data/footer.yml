@@ -3,18 +3,18 @@ socialIcon:
 - icon: tf-ion-social-linkedin
   url: https://www.linkedin.com/company/bantam-technologies/about/
 partners:
-- src: images/logo/elastic-logo-H-full-color-reverse.png
-  alttext: Elastic
 - src: images/logos/area1.png
   alttext: Area1 logo
-- src: images/logos/security-scorecard.svg
-  alttext: SecurityScorecard logo
 - src: images/logos/cloudflare.png
   alttext: Cloudflare logo
-- src: images/logos/rl-com-logo.svg
-  alttext: ReversingLabs logo
+- src: images/logo/elastic-logo-H-full-color-reverse.png
+  alttext: Elastic
 - src: images/logos/endgame.png
   alttext: Endgame logo
+- src: images/logos/rl-com-logo.svg
+  alttext: ReversingLabs logo
+- src: images/logos/security-scorecard.svg
+  alttext: SecurityScorecard logo
 office:
 - city: Annapolis
   state: Md
