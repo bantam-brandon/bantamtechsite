@@ -1,23 +1,25 @@
-enable : true
-heading : Our
-headingSpan : Services
-serviceItem :
-  - title : MDR
-    icon : fal fa-fw fa-window
-    background: bg-dark-gray
-    content : Managed Detection and Response. Proactive protection & response using next level endpoint sophistication, machine learning, and automation.
-    
-  - title : PHISHING
-    icon : fal fa-fw fa-envelope
-    background: bg-medium-gray
-    content : Stop malicious email dead in its tracks. Phish your users safely as part of  rolling exercises and training.
-    
-  - title : SIEM
-    icon : fal fa-fw fa-server
-    background: bg-offwhite
-    content : World class security operations via economies of scale. Get the same coverage, and advanced analytics without having to go BIG. 
-    
-  - title : COMMS
-    icon : fal fa-fw fa-mobile
-    background: bg-dark-gray
-    content : Secure voice, chat, video, email, calendar, & file transfer. Don't worry about issuing devices anymore.
+---
+enable: true
+heading: Our
+headingSpan: Services
+serviceItem:
+- icon: fal fa-fw fa-window
+  background: bg-dark-gray
+  title: MDR
+  content: Managed Detection and Response. Proactive protection & response using next
+    level endpoint sophistication, machine learning, and automation.
+- icon: fal fa-fw fa-envelope
+  background: bg-medium-gray
+  title: PHISHING
+  content: Stop malicious email dead in its tracks. Phish your users safely as part
+    of  rolling exercises and training.
+- icon: fal fa-fw fa-server
+  background: bg-offwhite
+  title: SOC
+  content: SOC as a service. World-class security operations via economies of scale.
+    Get the same coverage and advanced analytics without having to go BIG.
+- icon: fal fa-fw fa-mobile
+  background: bg-dark-gray
+  title: COMMS
+  content: Secure voice, chat, video, email, calendar, & file transfer. Don't worry
+    about issuing devices anymore.
