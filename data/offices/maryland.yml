@@ -1,4 +1,5 @@
-city : Annapolis
-state : Md
-address : 60 West ST, Suite 400
-address2 : Annapolis, MD 21401
+---
+city: Annapolis
+state: Md
+address: 60 West St, Suite 400
+address2: Annapolis, Md 21401
