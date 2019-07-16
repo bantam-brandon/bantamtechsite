@@ -4,6 +4,10 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: data/about2.yml
+  label: About Section
+  match: "**/*"
 - type: directory
   path: data/offices
   label: Office Locations
