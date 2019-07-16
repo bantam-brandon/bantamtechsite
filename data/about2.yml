@@ -1,13 +1,23 @@
-enable : true
-image : images/backgrounds/bantam-blue-straight.jpeg
-title : Meet Bantam
-description : Bantam Technologies was born in 2016 with the mission to help businesses, no matter their size, defend against the alarming increase in cybercriminal activity. Our team has decades of experience in breaking and securing systems as well as extensive knowledge of attack vectors ranging from hardware exploitation to phishing users. Our team is fully equipped and capable of handling anything that presents a cybersecurity risk to your organization.
-description2 : We want to bring Fortune 50 level of security operations to everyone. We've worked every at every scale in the public and private sector and know what's at stake.
-aboutItem : 
-  - icon : fal fa-fw fa-concierge-bell text-danger
-    title : Services
-    content : We provide top tier security operations, extending your team, without taking years of development and investment. As the landscape changes, so do we. Extend your team with a fraction of the price.
-    
-  - icon : fal fa-fw fa-user-tie text-danger
-    title : Consulting
-    content : It's hard to keep up. Bring us in for add-on services, or to consult your executive, development, or IT team on the latest trends. 
+---
+enable: true
+image: images/backgrounds/bantam-blue-straight.jpeg
+title: Meet Bantam
+description: Bantam Technologies was born in 2016 with the mission to help businesses,
+  no matter their size, defend against the alarming increase in cybercriminal activity.
+  Our team has decades of experience in breaking and securing systems as well as extensive
+  knowledge of attack vectors ranging from hardware exploitation to phishing users.
+  Our team is fully equipped and capable of handling anything that presents a cybersecurity
+  risk to your organization.
+description2: We want to bring Fortune 50 level of security operations to everyone.
+  We've worked security at every scale in the public and private sector and know what's
+  at stake.
+aboutItem:
+- icon: fal fa-fw fa-concierge-bell text-danger
+  title: Services
+  content: We provide top tier security operations, extending your team, without taking
+    years of development and investment. As the landscape changes, so do we. Extend
+    your team with a fraction of the price.
+- icon: fal fa-fw fa-user-tie text-danger
+  title: Consulting
+  content: It's hard to keep up. Bring us in for add-on services, or to consult your
+    executive, development, or IT team on the latest trends.
