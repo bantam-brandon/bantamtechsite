@@ -1,84 +1,63 @@
+DefaultContentLanguage = "en"
 baseURL = ""
 languageCode = "en-us"
-DefaultContentLanguage = "en"
-title = "BantamTechnologies"
-
 summaryLength = 10
-
-[taxonomies]
-  author = "author"
-  category = "categories"
-  tag = "tags"
-
-# Menu
-[menu]
-
-    [[menu.nav]]
-    name = "Services"
-    URL = "services"
-    weight = 3
-
-    [[menu.nav]]
-    name = "Contact"
-    URL = "contact-us"
-    weight = 8
-
-    [[menu.nav]]
-    name = "Careers"
-    URL = "career"
-    weight = 10
-
-# Site params
+title = "BantamTechnologies"
+[[menu.nav]]
+URL = "services"
+name = "Services"
+weight = 3
+[[menu.nav]]
+URL = "contact-us"
+name = "Contact"
+weight = 8
+[[menu.nav]]
+URL = "career"
+name = "Careers"
+weight = 10
 [params]
-home= "Home"
-logo = "images/logo.png"
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-# Meta data
-description = "BantamTechnologies provides cyber security services and applications to meet business writ large. The unconventional approach in the security field and a solution to SMBs. A solution for everyone."
-author = "Themefisher"
-# Google Analitycs
-googleAnalitycsID = "Your ID"
+author = "Bantam Technologies"
 custom_css = ["css/custom.css"]
-
-    # Banner Section
-    [params.banner]
-    enable = true
-    bgImage = "images/backgrounds/bantam-blue-straight.jpeg"
-    icon = "tf-ion-play"
-    heading = "Bantam Technologies"
-    content= "Simplify Security"
-    btn = true
-    btnText="Our Services"
-    btnURL="#services"
-
-    # call to action
-    [params.cta]
-    enable = true
-    title = "Great Design & Incredible Features"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
-    btnURL = "#"
-    btnText = "Start a project with us"
-
-    # counter
-    [params.counter]
-    enable = true
-    bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Happy Clients"
-        icon = "tf-ion-android-happy"
-        count = "320"
-
-        [[params.counter.counterItem]]
-        title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
-
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
-        icon = "tf-ion-thumbsup"
-        count = "95"
-
-        [[params.counter.counterItem]]
-        title = "Cups of Coffee"
-        icon = "tf-ion-coffee"
-        count = "2500"
+description = "BantamTechnologies provides cyber security services and applications to meet business writ large. The unconventional approach in the security field and a solution to SMBs. A solution for everyone."
+gmapAPI = ""
+googleAnalitycsID = ""
+home = "Home"
+logo = "images/logo.png"
+[params.banner]
+bgImage = "images/backgrounds/bantam-blue-straight.jpeg"
+btn = true
+btnText = "Our Services"
+btnURL = "#services"
+content = "Simplify Security"
+enable = true
+heading = "Bantam Technologies"
+icon = "tf-ion-play"
+[params.counter]
+bgImage = "images/backgrounds/bg-1.jpg"
+enable = false
+[[params.counter.counterItem]]
+count = 320
+icon = "tf-ion-android-happy"
+title = "Happy Clients"
+[[params.counter.counterItem]]
+count = 565
+icon = "tf-ion-archive"
+title = "Projects completed"
+[[params.counter.counterItem]]
+count = 95
+icon = "tf-ion-thumbsup"
+title = "Positive feedback"
+[[params.counter.counterItem]]
+count = 2500
+icon = "tf-ion-coffee"
+title = "Cups of Coffee"
+[params.cta]
+btnText = "Start a project with us"
+btnURL = "#"
+content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+enable = false
+title = "Great Design & Incredible Features"
+[taxonomies]
+author = "author"
+category = "categories"
+tag = "tags"
