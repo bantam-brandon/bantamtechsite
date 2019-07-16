@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/about2.yml
   label: About Section
-  match: "**/*"
 - type: directory
   path: data/offices
   label: Office Locations
