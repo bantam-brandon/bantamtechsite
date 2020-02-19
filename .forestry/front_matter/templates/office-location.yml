@@ -22,3 +22,5 @@ fields:
   config:
     required: false
   label: address2
+pages:
+- data/offices/washington-dc.yml
